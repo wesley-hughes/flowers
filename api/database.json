@@ -1,0 +1,49 @@
+{
+    "flowers": [
+        { "id": 1, "commonName": "Zombie Palm", "color" : "green" },
+        { "id": 2, "commonName": "Dracula Orchid", "color" : "black" },
+        { "id": 3, "commonName": "Devil's Claw", "color" : "pink" },
+        { "id": 4, "commonName": "Corpse Flower", "color" : "dark red" },
+        { "id": 5, "commonName": "Bloodroot", "color" : "white" }
+    ],
+    "retailers": [
+        { "id": 1, "name": "Schiller's Florist", "city": "North Oda", "state": "Washington", "address": "106 Jennie Pines Loop", "distributorId": 1 },
+        { "id": 2, "name": "Flora", "city": "Brownfield", "state": "Idaho", "address": "609 Spinka Inlet Extension", "distributorId": 2 },
+        { "id": 3, "name": "Floral Savage", "city": "Olsonside", "state": "Wyoming", "address": "90469 Osinski Springs Pike", "distributorId": 3 },
+        { "id": 4, "name": "Plants R Us", "city": "South Jazlynchester", "state": "Pennsylvania", "address": "055 Ernie Walks Road", "distributorId": 2 },
+        { "id": 5, "name": "Kozey's Floral Design", "city": "East Araceliberg", "state": "Washington", "address": "33282 Anderson Union Avenue", "distributorId": 1 }
+    ],
+    "distributors": [
+        { "id": 1, "name": "Koch Distribution LLC", "city": "Missouri City", "state": "Kentucky", "address": "249 Lera Mount" },
+        { "id": 2, "name": "Farrell Distribution Inc", "city": "Corona", "state": "Arizona", "address": "304 Jeanie Motorway" },
+        { "id": 3, "name": "Klocko Brothers Distribution", "city": "Port Devontemouth", "state": "Minnesota", "address": "65078 Beahan Forge" }
+    ],
+    "nurseries": [
+        { "id": 1, "name": "Growing Strong Nursery" },
+        { "id": 2, "name": "Teresa B Growing" },
+        { "id": 3, "name": "Ubaldo Nursery" },
+        { "id": 4, "name": "Tremayne Plant Grower" },
+        { "id": 5, "name": "Lorenz Grew That" }
+    ],
+    "nurseryFlowers": [
+        { "id": 1, "flowerId": 5, "nurseryId": 1 },
+        { "id": 2, "flowerId": 4, "nurseryId": 1 },
+        { "id": 3, "flowerId": 3, "nurseryId": 2 },
+        { "id": 4, "flowerId": 2, "nurseryId": 2 },
+        { "id": 5, "flowerId": 1, "nurseryId": 3 },
+        { "id": 6, "flowerId": 5, "nurseryId": 3 },
+        { "id": 7, "flowerId": 4, "nurseryId": 4 },
+        { "id": 8, "flowerId": 3, "nurseryId": 4 },
+        { "id": 9, "flowerId": 2, "nurseryId": 5 },
+        { "id": 10, "flowerId": 1, "nurseryId": 5 }
+    ],
+    "distributorNurseries": [
+        { "id": 1, "distributorId": 3, "nurseryId": 1 },
+        { "id": 2, "distributorId": 2, "nurseryId": 3 },
+        { "id": 3, "distributorId": 1, "nurseryId": 4 },
+        { "id": 4, "distributorId": 3, "nurseryId": 2 },
+        { "id": 5, "distributorId": 2, "nurseryId": 5 },
+        { "id": 6, "distributorId": 1, "nurseryId": 1 }
+    ]
+}
+
